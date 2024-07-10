@@ -7,6 +7,7 @@
 .banner {
   height: 652px;
   background-image: url("../assets/Hero-bg.png");
+  margin-bottom: 74px;
 }
 
 .banner-content {
@@ -26,6 +27,7 @@
   font-weight: 800;
   font-size: 48px;
   line-height: 68px;
+  letter-spacing: 0%;
   text-align: center;
   color: #0d1321;
   margin-bottom: 24px;
@@ -35,6 +37,7 @@
   width: 852px;
   font-size: 16px;
   line-height: 26px;
+  letter-spacing: 0%;
   text-align: center;
   color: #0d1321;
   margin-bottom: 32px;
@@ -48,4 +51,78 @@
   color: #ffffff;
   background-color: #0d1321;
   cursor: pointer;
+}
+
+.reasons-for-web {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 80px 97px;
+  background-color: rgba(13, 19, 33, 0.02);
+  border-radius: 16px;
+  margin-bottom: 90px;
+}
+
+.section-title {
+  color: #0d1321;
+  font-weight: 800;
+  font-size: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.section-description {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.reason-card-container {
+  padding: 48px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.reason-card-title {
+  width: 390px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 16px;
+  color: rgba(13, 19, 33, 0.7);
+}
+
+.reason-card-desc {
+  width: 468px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 32px;
+  color: #0d1321;
+}
+
+.reason-card-button {
+  padding: 12px 20px;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #0d1321;
+  border: 1px solid rgb(13, 19, 33);
+  background-color: #ffffff;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.inspiration {
+  width: 1140px;
+  margin: 0 auto;
 }
