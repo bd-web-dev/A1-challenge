@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: Azeret Mono;
+  box-sizing: border-box;
 }
 
 .banner {
@@ -11,7 +12,7 @@
 }
 
 .banner-content {
-  width: 998px;
+  max-width: 998px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -34,13 +35,14 @@
 }
 
 .banner-description {
-  width: 852px;
+  max-width: 852px;
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0%;
   text-align: center;
   color: #0d1321;
   margin-bottom: 32px;
+  opacity: 0.7;
 }
 
 .banner-button {
@@ -54,7 +56,7 @@
 }
 
 .reasons-for-web {
-  width: 1140px;
+  max-width: 1140px;
   margin: 0 auto;
   padding: 80px 97px;
   background-color: rgba(13, 19, 33, 0.02);
@@ -77,6 +79,7 @@
   letter-spacing: 0%;
   text-align: center;
   margin-bottom: 48px;
+  opacity: 0.7;
 }
 
 .reason-card-container {
@@ -89,7 +92,7 @@
 }
 
 .reason-card-title {
-  width: 390px;
+  max-width: 390px;
   font-weight: 700;
   font-size: 24px;
   line-height: 36px;
@@ -100,13 +103,14 @@
 }
 
 .reason-card-desc {
-  width: 468px;
+  max-width: 468px;
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0%;
   text-align: left;
   margin-bottom: 32px;
   color: #0d1321;
+  opacity: 0.7;
 }
 
 .reason-card-button {
@@ -123,6 +127,147 @@
 }
 
 .inspiration {
-  width: 1140px;
+  max-width: 1140px;
   margin: 0 auto;
+  margin-bottom: 151px;
+}
+
+.video-container {
+  max-width: 1140px;
+  max-height: 614px;
+  padding: 32px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+}
+
+.current-target {
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-bottom: 111px;
+}
+
+.tech-cards-container {
+  display: flex;
+  gap: 24px;
+}
+
+.tech-card {
+  max-width: 364px;
+  padding: 40px;
+  border-radius: 16px;
+}
+
+.tech-card-img {
+  margin-bottom: 24px;
+}
+
+.tech-card-title {
+  font-weight: 800;
+  font-size: 24px;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.tech-card-details {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 24px;
+  opacity: 0.7;
+}
+
+.tech-card-link {
+  font-weight: 700;
+  font-size: 16px;
+  color: #0d1321;
+}
+
+.html-bg {
+  background-color: rgba(255, 76, 30, 0.05);
+}
+
+.css-bg {
+  background-color: rgba(0, 76, 232, 0.05);
+}
+
+.js-bg {
+  background-color: rgba(255, 223, 0, 0.05);
+}
+
+.support {
+  padding: 64px 48px;
+  max-width: 1140px;
+  max-height: 313px;
+  margin: 0 auto;
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(../assets/handshake.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.support-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.support-desc {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.7;
+  margin-bottom: 24px;
+}
+
+.support input[type="text"] {
+  padding: 19px 20px;
+  width: 548px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #ffffff;
+}
+
+.support input[type="submit"] {
+  width: 120px;
+  padding: 17px 20px;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+footer {
+  padding: 32px 150px;
+  background-color: rgba(13, 19, 33, 0.03);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-credits {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+}
+
+.links-container {
+  list-style-type: none;
+  display: flex;
+  gap: 24px;
 }
